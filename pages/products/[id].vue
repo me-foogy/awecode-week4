@@ -1,6 +1,5 @@
 <template>
 <ProductDetails :product="product"></ProductDetails>
-
 </template>
 
 <script setup>
@@ -11,4 +10,11 @@
     definePageMeta({
         layout: 'products',
     })
+
+    if (!product.value) {
+    throw createError({
+        statusCode: 404,
+        statusMessage: 'Product not found'
+    })
+}
 </script>

@@ -1,10 +1,9 @@
 <template>
     <header class="shadow-sm bg-white">
-        <nav class="container mx-auto p4 flex justify-between">
+        <nav class="container mx-auto p4 flex justify-between px-20 py-5">
             <NuxtLink to="/" class="font-bold">PROJECT</NuxtLink>
             <ul class="flex gap-4">
                 <li><NuxtLink to="/">Home</NuxtLink></li>
-                <li><NuxtLink to="/about">About</NuxtLink></li>
                 <li><NuxtLink to="/products" class="btn">Products</NuxtLink></li>
             </ul>
         </nav>

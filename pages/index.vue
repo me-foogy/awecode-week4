@@ -1,7 +1,14 @@
 <template>
-    <div>
-        <h2>Home</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam beatae magni consequuntur facilis rerum quas nesciunt, a voluptatum eaque debitis earum ipsum vero, aliquid laboriosam atque corrupti libero et?</p>
+    <div class="flex justify-center">
+        <div class="w-[90vw] h-[60vh] flex flex-row justify-between items-start pt-20">
+            <div>
+                <h1 class="text-4xl text-black mb-10">A Central Store for All Your Needs</h1>
+                <button class="btn"><NuxtLink to="/products">View Products</NuxtLink></button>
+            </div>
+            <div class="max-h-[50vw] max-w-[50vw]">
+                <img src="../assets/11235297_10538.jpg">
+            </div>
+        </div>
     </div>
 </template>
 
